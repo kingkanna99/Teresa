@@ -19,6 +19,7 @@ public class Server extends HttpServlet{
 		req.setAttribute("parola", parola);
 		System.out.println(parola);
 		System.out.println("da eclipsecc");
+		System.out.println("ciakkoo");
 		RequestDispatcher rd = getServletContext().getRequestDispatcher("/index.jsp");	
 		rd.forward(req, resp);
 		return;
